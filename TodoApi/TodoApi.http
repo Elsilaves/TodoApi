@@ -9,7 +9,8 @@ POST {{TodoApi_HostAddress}}/api/todoitems
 Content-Type: application/json
 
 {
-  //TodoItem
+  "name": "walk dog",
+  "isComplete": true
 }
 
 ###
