@@ -14,3 +14,13 @@ Content-Type: application/json
 }
 
 ###
+
+
+GET {{TodoApi_HostAddress}}/api/todoitems/
+
+###
+
+@id=1
+GET {{TodoApi_HostAddress}}/api/todoitems/{{id}}
+
+###
