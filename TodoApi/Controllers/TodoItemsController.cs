@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
 
-[Route("api/[controller]")]
+[Route("api/todoitems")]
 [ApiController]
 public class TodoItemsController : ControllerBase
 {
