@@ -24,3 +24,7 @@ GET {{TodoApi_HostAddress}}/api/todoitems/
 GET {{TodoApi_HostAddress}}/api/todoitems/{{id}}
 
 ###
+
+DELETE {{TodoApi_HostAddress}}/api/todoitems/{{id}}
+
+###
